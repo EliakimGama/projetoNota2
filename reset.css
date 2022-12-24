@@ -7,12 +7,7 @@
 
     margin-left: 50px;
     margin-right: 50px;
-    
 
-}
-.col-sm-6{
-
-    width: 5vh;
 }
 
 .secao{
@@ -30,6 +25,7 @@
     height: 30vh;
     background-color: rgb(255, 255, 255);
 }
+
 .centro {
     margin-top: -200px;
     top: 20%;
@@ -39,34 +35,39 @@
 }
 
 .resultado {
-    font-size: 3em;
+    font-size: 6em;
+    font-weight: bold;
+    color: #180044;
 }
 
 .resultadofinal {
-    font-size: 3em;
+    font-size: 6em;
+    font-weight: bold;
+    color: #180044;
 }
 
 
 .atv1, .atv2 ,.atv3, .for1, .for2, .for3, .auto, .npc, .nef, .notafinal{
-    padding: 5px;
-	margin-top: 10px;
-	width: 200px;
-	font-size: medium;
+    padding: 20px;
+	margin-top: 30px;
+	width: 500px;
+	font-size: xx-large;
 	max-width: 1200px;
 	position: relative;
 	margin-left: auto;
 	margin-right: auto;
+
 }
 
 .button {
 
     position: relative;
-	width: 120px;
+	width: 280px;
 	border-radius: 10px;
 	background-color: #180044;
-	height: 50px;
+	height: 80px;
 	color: #FFF;
-	font-size: larger;
+	font-size: xx-large;
 	margin-top: 15px;
     margin-bottom: 10px;
     
