@@ -15,18 +15,18 @@
 <body>
 
     <section class="secao" tyle="margin-bottom: 5rem;">
- 
+
         <p class="h1">Calculador de Notas</p>
         <p class="h1">Licenciatura em Computação</p>
         <p class="h2">Polo Beberibe</p>
 
         <!-- style="margin-left: 5rem; width: 100vh; margin-top: 10px; margin-bottom: 5rem;"-->
-        <div class="row" >
-            <div class="col-sm-6"> 
-                <div class="card" >
+        <div class="margem">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="card" style="margin-bottom: 3rem;">
                     <div class="card-body">
                         <h4 class="card-title">Calcule sua média</h4>
-                        <div class="card-body">
                             Atividade 1:
                             <input class="atv1" type="number"><br>
                             Fórum 1___:
@@ -46,27 +46,25 @@
                             <button class="button" onclick="clicar()">Resultado</button>
                             <button class="button" onclick="limpar()">Limpar</button>
                             <p class="resultado"></p>
-                        </div>
                     </div>
                 </div>
             </div>
-        <!--style="margin-left: 5rem; width: 70vh; margin-top: 10px;"-->
-            <div class="col-sm-6" >
+            <!--style="margin-left: 5rem; width: 70vh; margin-top: 10px;"-->
+            <div class="col-sm-6">
                 <div class="card">
                     <div class="card-body">
-                        <h4 class="card-title">Calcule a NEF</h4>
-                        <div class="card-body">
+                        <h4 class="card-title">Calcule a NEF</h4>    
                             Média Final:
                             <input class="notafinal" type="number"><br>
                             Nota NEF__:
                             <input class="nef" type="number"><br>
                             <button class="button" onclick="recuperacao()">Resultado</button>
                             <button class="button" onclick="limpar2()">Limpar</button>
-                            <p class="resultadofinal"></p>
-                        </div>
+                            <p class="resultadofinal"></p>   
                     </div>
                 </div>
             </div>
+        </div>
     </section>
     <footer>
         <h6>Desenvolvido por: Eliakim Gama</h6>
