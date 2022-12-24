@@ -107,3 +107,24 @@ footer{
     transform: scale(1.2);
     transition: .3s;
 }
+
+@media screen and (max-width:320px){
+
+    .margem{
+        margin-top: 500px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .col-sm-6{
+
+        width: 0px;
+    }
+
+    .card{
+
+        width: 50px;
+        
+    }
+
+}
