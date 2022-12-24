@@ -13,32 +13,57 @@
 </head>
 
 <body>
+
     <section class="secao">
-        <div class="centro">
+ 
+        <p class="h1">Calculador de Notas - Licenciatura em Computação</p>
+        <p class="h2">Polo Beberibe</p>
 
-            <p class="h1">Calculador de Notas - Licenciatura em Computação</p>
-
-            Atividade 1:
-            <input class="atv1" type="number"><br>
-            Fórum 1___:
-            <input class="for1" type="number"><br>
-            Atividade 2:
-            <input class="atv2" type="number"><br>
-            Fórum 2___:
-            <input class="for2" type="number"><br>
-            Atividade 3:
-            <input class="atv3" type="number"><br>
-            Fórum 3___:
-            <input class="for3" type="number"><br>
-            Auto Avalia:
-            <input class="auto" type="number"><br>
-            NPC1-Prova:
-            <input class="npc" type="number"><br>
-            <button class="button" onclick="clicar()">Resultado</button>
-            <button class="button" onclick="limpar()">Limpar</button>
-            <p class="resultado"></p>
-        </div>
-
+        <div class="row">
+            <div class="col-sm-6" style="margin-left: 5rem; width: 100vh; margin-top: 10px; margin-bottom: 5rem;">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Calcule sua média</h4>
+                        <div class="card-body">
+                            Atividade 1:
+                            <input class="atv1" type="number"><br>
+                            Fórum 1___:
+                            <input class="for1" type="number"><br>
+                            Atividade 2:
+                            <input class="atv2" type="number"><br>
+                            Fórum 2___:
+                            <input class="for2" type="number"><br>
+                            Atividade 3:
+                            <input class="atv3" type="number"><br>
+                            Fórum 3___:
+                            <input class="for3" type="number"><br>
+                            Auto Avalia:
+                            <input class="auto" type="number"><br>
+                            NPC1-Prova:
+                            <input class="npc" type="number"><br>
+                            <button class="button" onclick="clicar()">Resultado</button>
+                            <button class="button" onclick="limpar()">Limpar</button>
+                            <p class="resultado"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6" style="margin-left: 5rem; width: 70vh; margin-top: 10px;">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Calcule a NEF</h4>
+                        <div class="card-body">
+                            Média Final:
+                            <input class="notafinal" type="number"><br>
+                            Nota NEF__:
+                            <input class="nef" type="number"><br>
+                            <button class="button" onclick="recuperacao()">Resultado</button>
+                            <button class="button" onclick="limpar2()">Limpar</button>
+                            <p class="resultadofinal"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
     </section>
     <footer>
         <h6>Desenvolvido por: Eliakim Gama</h6>

@@ -38,4 +38,30 @@ function limpar(){
     document.querySelector(".npc").value ="";
 
 }
-    
+
+function recuperacao() {
+    var rec1 = document.querySelector(".notafinal").value;
+    var rec2 = document.querySelector(".nef").value;
+
+   
+    var nef_final = (parseInt(rec1) + parseInt(rec2))/2 ;
+ 
+
+    if (nef_final >= 50){
+
+        document.querySelector(".resultadofinal").innerHTML = nef_final + " - Aprovado!";
+
+    }else {
+
+        document.querySelector(".resultadofinal").innerHTML = nef_final + " - Reprovado";
+
+    }
+
+}
+
+    function limpar2() {
+
+        document.querySelector(".notafinal").value ="";
+        document.querySelector(".nef").value ="";
+
+    }
