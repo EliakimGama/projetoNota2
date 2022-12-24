@@ -3,7 +3,7 @@
 <html lang="pt-br">
 
 <head>
-    <title>Somar valores de input</title>
+    <title>Calculador de notas</title>
     <meta charset="utf-8">
     <script src="somar.js"></script>
     <link rel="stylesheet" href="somar.css">
@@ -16,17 +16,18 @@
 
     <section class="secao" tyle="margin-bottom: 5rem;">
 
-        <p class="h1">Calculador de Notas</p>
-        <p class="h1">Licenciatura em Computação</p>
-        <p class="h2">Polo Beberibe</p>
+        <p class="display-2">Simulador de Notas</p>
+        <p class="display-3">Licenciatura em Computação</p>
+        <p class="display-3">Polo Beberibe</p>
 
         <!-- style="margin-left: 5rem; width: 100vh; margin-top: 10px; margin-bottom: 5rem;"-->
         <div class="margem">
         <div class="row">
-            <div class="col-sm-6">
+            <div class="col-sm-">
                 <div class="card" style="margin-bottom: 3rem;">
                     <div class="card-body">
-                        <h4 class="card-title">Calcule sua média</h4>
+                        <h1 class="card-title">Calcule sua média</h1>
+                        <h1 class="teste">
                             Atividade 1:
                             <input class="atv1" type="number"><br>
                             Fórum 1___:
@@ -43,6 +44,7 @@
                             <input class="auto" type="number"><br>
                             NPC1-Prova:
                             <input class="npc" type="number"><br>
+                        </h1>
                             <button class="button" onclick="clicar()">Resultado</button>
                             <button class="button" onclick="limpar()">Limpar</button>
                             <p class="resultado"></p>
@@ -50,14 +52,15 @@
                 </div>
             </div>
             <!--style="margin-left: 5rem; width: 70vh; margin-top: 10px;"-->
-            <div class="col-sm-6">
+            <div class="col-sm-">
                 <div class="card" style="margin-bottom: 3rem;">
                     <div class="card-body">
-                        <h4 class="card-title">Calcule a NEF</h4>    
-                            Média Final:
+                        <h1 class="card-title">Calcule a NEF</h1>    
+                        <h1 class="teste">Média Final:
                             <input class="notafinal" type="number"><br>
                             Nota NEF__:
                             <input class="nef" type="number"><br>
+                        </h1>
                             <button class="button" onclick="recuperacao()">Resultado</button>
                             <button class="button" onclick="limpar2()">Limpar</button>
                             <p class="resultadofinal"></p>   
@@ -67,7 +70,7 @@
         </div>
     </section>
     <footer>
-        <h6>Desenvolvido por: Eliakim Gama</h6>
+        <h3>Desenvolvido por: Eliakim Gama</h3>
         <div class="Redes-sociais">
             <a href="https://www.facebook.com/eliakim.gama" target="_blank"><i class="fab fa-facebook-f"></i></a>
             <a href="https://www.instagram.com/eliakimgama/" target="_blank"><i class="fab fa-instagram"></i></a>
